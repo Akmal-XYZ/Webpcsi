@@ -1,0 +1,65 @@
+button {
+            background-color: #00000080;
+            color: white;
+            padding: 0px 30px; 
+            margin: 7px 0px;
+            border: none;
+            cursor: pointer;
+            width: 30px 50px
+            font-size: 16px;
+            border: 1px solid #ff0000;
+            border-radius: 4px;
+            }
+.navbar {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #00000080;
+        width: 200px;
+        height: 100vh;
+        color: fff;
+        padding: 20px 50px;
+       
+    }
+
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 10px 0;
+    }
+
+    .nav-toggle {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        color: white;
+        
+        cursor: pointer;
+    
+      
+        }
+    .profile img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: 1px solid #ff0000;
+        display: block;
+        
+    }
+        .product-box {
+        width: 255px;
+        padding: 20px;
+        border: 1px solid #ff0000;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        margin: 20px;
+    }
+    
+     @keyframes colorBlink { 0%, 100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 33% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 66% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } } p { animation: colorBlink 3s infinite; }
+     
+      

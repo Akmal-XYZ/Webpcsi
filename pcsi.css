@@ -1,0 +1,91 @@
+
+							
+								h1{
+								color: white;
+								
+								
+								
+								
+						
+  
+    }
+    p{
+    color: white;
+    }
+     button {
+            background-color: #00000080;
+            color: white;
+            padding: 8px 60px; 
+            margin: 7px 0px;
+            border: none;
+            cursor: pointer;
+            width: 30px 50px
+            font-size: 16px;
+            border: 1px solid #ff0000;
+            border-radius: 4px;
+            }
+            h4{
+            color: yellow;
+            
+            }
+
+  
+ @keyframes colorBlink { 0%, 100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 33% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 66% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } } h1 { animation: colorBlink 3s infinite; }
+h9{
+color: #00ccff;
+}
+	h5{
+				color: red;
+				}
+				   .profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .profile img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: 1px solid #ff0000;
+    }
+    
+    .container {
+        background-color: #00000080;
+        padding: 20px;
+        border: 1px solid #ff0000;
+        }
+   
+    
+ @keyframes colorBlink { 0%, 100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 33% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 66% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } } h2 { animation: colorBlink 3s infinite; }
+
+ .navbar {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #00000080;
+        width: 200px;
+        height: 100vh;
+        color: fff;
+        padding: 20px 50px;
+       
+    }
+
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 10px 0;
+    }
+
+    .nav-toggle {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        color: white;
+        
+        cursor: pointer;
+    }
+      
