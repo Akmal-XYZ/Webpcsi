@@ -60,8 +60,7 @@ color: #00ccff;
  @keyframes colorBlink { 0%, 100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 33% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 66% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } } h2 { animation: colorBlink 3s infinite; }
 
  body {
-        margin: 0;
-        padding: 0;
+        
         font-family: Arial, sans-serif;
     }
     .navbar a {
